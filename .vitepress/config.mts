@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/golang-docs/',
+  base: '/ios-docs/',
   cleanUrls: true,
   lang: 'en-US',
   lastUpdated: true,
