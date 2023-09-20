@@ -23,7 +23,7 @@ export default defineConfig({
   description: 'iOS Documentation Collection',
 
   head: [
-    ['link', { rel: 'icon', href: '/assets/favicon.ico' }]
+    ['link', { rel: 'icon', href: 'https://www.alibaihaqi.com/favicon.ico' }]
   ],
 
   themeConfig: {
@@ -38,8 +38,7 @@ export default defineConfig({
     },
 
     footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2023-Present Fadli Al Baihaqi'
+      copyright: 'Copyright © 2023 - Present by Fadli Al Baihaqi'
     },
 
     sidebar: [
@@ -53,7 +52,8 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/alibaihaqi' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/alibaihaqi/' }
     ]
   }
 })
