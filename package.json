@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/alibaihaqi/ios-docs#readme",
   "devDependencies": {
-    "vitepress": "^1.0.0-rc.10"
+    "vitepress": "1.6.4"
   }
 }
