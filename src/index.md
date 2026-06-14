@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "iOS Documentation"
-  tagline: Develop your iOS projects
+  tagline: Part of the Learning Docs hub.
   actions:
     - theme: brand
       text: Markdown Examples
@@ -12,6 +12,9 @@ hero:
     - theme: alt
       text: API Examples
       link: /api-examples
+    - theme: alt
+      text: Hub
+      link: https://alibaihaqi.github.io/learning-docs/
 
 # features:
 #   - title: Feature A
