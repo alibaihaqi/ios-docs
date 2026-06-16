@@ -7,22 +7,19 @@ hero:
   tagline: Part of the Learning Docs hub.
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Beginner tier
+      link: /beginner/
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Getting Started
+      link: /introduction/getting-started
     - theme: alt
       text: Hub
       link: https://alibaihaqi.github.io/learning-docs/
 
-# features:
-#   - title: Feature A
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature B
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature C
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+features:
+  - title: Beginner tier
+    details: Ladder from zero to a SwiftUI list app running in the simulator.
+    link: /beginner/
 ---
 
 <style>
