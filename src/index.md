@@ -20,6 +20,9 @@ features:
   - title: Beginner tier
     details: Ladder from zero to a SwiftUI list app running in the simulator.
     link: /beginner/
+  - title: Intermediate tier
+    details: Extend the beginner list into an MVVM async app with URLSession and NavigationStack.
+    link: /intermediate/
 ---
 
 <style>

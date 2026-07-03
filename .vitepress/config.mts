@@ -30,7 +30,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Beginner', link: '/beginner/' }
+      { text: 'Beginner', link: '/beginner/' },
+      { text: 'Intermediate', link: '/intermediate/' }
     ],
 
     search: {
@@ -65,6 +66,19 @@ export default defineConfig({
           { text: '09 List', link: '/beginner/09-list' },
           { text: '10 ForEach and Identifiable', link: '/beginner/10-foreach-and-identifiable' },
           { text: '11 Ship a one-screen list app', link: '/beginner/11-ship-list-app' }
+        ]
+      },
+      {
+        text: 'Intermediate',
+        collapsed: false,
+        items: [
+          { text: 'Overview', link: '/intermediate/' },
+          { text: '01 Why MVVM', link: '/intermediate/01-why-mvvm' },
+          { text: '02 The view model', link: '/intermediate/02-viewmodel' },
+          { text: '03 Async load with URLSession', link: '/intermediate/03-async-urlsession' },
+          { text: '04 Bind the view', link: '/intermediate/04-bind-view' },
+          { text: '05 Loading and error states', link: '/intermediate/05-loading-error' },
+          { text: '06 NavigationStack detail', link: '/intermediate/06-navigationstack-detail' }
         ]
       }
     ],
