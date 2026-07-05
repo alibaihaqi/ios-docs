@@ -3,6 +3,11 @@
 All notable changes to the iOS learning-docs site. Newest first.
 Format loosely follows [Keep a Changelog](https://keepachangelog.com/).
 
+## 2026-07-05 — Advanced tier
+
+### Added
+- **Advanced tier** (`src/advanced/`, 10 pages + index): extends the intermediate MVVM list into a production-ready iOS app — SwiftData persistence, Sign in with Apple, Keychain token storage, unit tests (XCTest), UI tests (XCUITest), CI/CD (GitHub Actions), push notifications (APNs), Instruments profiling, and TestFlight distribution. Wired into the sidebar, nav, and home feature card.
+
 ## 2026-07-04 — Intermediate tier + CI
 
 ### Added

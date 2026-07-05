@@ -23,6 +23,9 @@ features:
   - title: Intermediate tier
     details: Extend the beginner list into an MVVM async app with URLSession and NavigationStack.
     link: /intermediate/
+  - title: Advanced tier
+    details: Production-ready iOS with SwiftData persistence, Sign in with Apple, unit/UI tests, CI/CD, push notifications, and TestFlight distribution.
+    link: /advanced/
 ---
 
 <style>

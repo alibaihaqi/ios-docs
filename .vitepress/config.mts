@@ -31,7 +31,8 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Beginner', link: '/beginner/' },
-      { text: 'Intermediate', link: '/intermediate/' }
+      { text: 'Intermediate', link: '/intermediate/' },
+      { text: 'Advanced', link: '/advanced/' }
     ],
 
     search: {
@@ -79,6 +80,23 @@ export default defineConfig({
           { text: '04 Bind the view', link: '/intermediate/04-bind-view' },
           { text: '05 Loading and error states', link: '/intermediate/05-loading-error' },
           { text: '06 NavigationStack detail', link: '/intermediate/06-navigationstack-detail' }
+        ]
+      },
+      {
+        text: 'Advanced',
+        collapsed: false,
+        items: [
+          { text: 'Overview', link: '/advanced/' },
+          { text: '01 Why SwiftData', link: '/advanced/01-why-swiftdata' },
+          { text: '02 Add SwiftData', link: '/advanced/02-add-swiftdata' },
+          { text: '03 Sign in with Apple', link: '/advanced/03-sign-in-with-apple' },
+          { text: '04 Secure token storage', link: '/advanced/04-secure-token-storage' },
+          { text: '05 Unit tests', link: '/advanced/05-unit-tests' },
+          { text: '06 UI tests', link: '/advanced/06-ui-tests' },
+          { text: '07 CI/CD GitHub Actions', link: '/advanced/07-ci-cd-github-actions' },
+          { text: '08 Push notifications', link: '/advanced/08-push-notifications' },
+          { text: '09 Instruments profiling', link: '/advanced/09-instruments-profiling' },
+          { text: '10 TestFlight distribution', link: '/advanced/10-testflight-distribution' },
         ]
       }
     ],
