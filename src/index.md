@@ -26,6 +26,12 @@ features:
   - title: Advanced tier
     details: Production-ready iOS with SwiftData persistence, Sign in with Apple, unit/UI tests, CI/CD, push notifications, and TestFlight distribution.
     link: /advanced/
+  - title: Objective-C
+    details: From message passing to modern iOS patterns — the language behind UIKit.
+    link: /objective-c/
+  - title: Swift
+    details: Safety, expressiveness, and concurrency for iOS development.
+    link: /swift/
 ---
 
 <style>
