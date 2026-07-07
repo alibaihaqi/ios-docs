@@ -8,10 +8,6 @@ export default defineConfig({
   lastUpdated: true,
   srcDir: 'src',
 
-  // Temporary: ObjC and Swift page files land in Tasks 2-8.
-  // Remove once all pages exist.
-  ignoreDeadLinks: true,
-
   locales: {
     root: {
       label: 'English',

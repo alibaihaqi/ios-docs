@@ -3,6 +3,16 @@
 All notable changes to the iOS learning-docs site. Newest first.
 Format loosely follows [Keep a Changelog](https://keepachangelog.com/).
 
+## 2026-07-07 — feat: add Objective-C and Swift language deep-dive sections
+
+### Added
+- **Objective-C** (12 pages): history, syntax, classes/memory, categories/protocols, Foundation, blocks, UIKit, error handling, KVO, ObjC-Swift interop, testing.
+- **Swift** (14 pages): design, types, functions/closures, structs/classes, enums, protocols, generics, error handling, property wrappers/result builders, concurrency, SPM, iOS patterns, testing, interop.
+- Both sections placed after Advanced in sidebar as standalone language references.
+
+### Changed
+- **Removed `ignoreDeadLinks: true`** from config — the 26 new pages all exist, so dead links are now real issues caught at build time.
+
 ## 2026-07-08 — Swift section pages 01–04
 
 ### Added
