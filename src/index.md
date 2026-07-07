@@ -11,7 +11,7 @@ hero:
       link: /beginner/
     - theme: alt
       text: Getting Started
-      link: /introduction/getting-started
+      link: /introduction/
     - theme: alt
       text: Hub
       link: https://alibaihaqi.github.io/learning-docs/
