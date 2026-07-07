@@ -3,6 +3,28 @@
 All notable changes to the iOS learning-docs site. Newest first.
 Format loosely follows [Keep a Changelog](https://keepachangelog.com/).
 
+## 2026-07-07 — Objective-C section pages 09–12
+
+### Added
+- **Objective-C deep-dive pages 09–12** (`src/objective-c/`): completes the
+  12-page ObjC language reference.
+  - `09-error-handling.md` — the `NSError **` double-pointer out-parameter
+    pattern, the three parts of `NSError` (domain/code/userInfo), authoring
+    error-vending methods, `NSUnderlyingErrorKey` wrapping, `@try`/`@catch`
+    scope, and the Swift `throws`/`catch` comparison.
+  - `10-kvo-notificationcenter.md` — KVO registration + the `context` pointer
+    discipline, automatic vs manual notification, `dealloc` removal, the
+    `NSNotificationCenter` selector + block APIs, when-to-use-what matrix
+    (delegate vs KVO vs NotificationCenter vs blocks), and a full KVO example.
+  - `11-objc-swift-interop.md` — bridging header, `@objc`/`@objcMembers`,
+    what cannot cross the boundary, `NS_ASSUME_NONNULL_BEGIN/END` audit regions,
+    lightweight generics, `NS_SWIFT_NAME`/`NS_REFINED_FOR_SWIFT`,
+    `#selector`/`#keyPath`, and a mixed-source `DataManager` + Swift VC example.
+  - `12-testing-objective-c.md` — XCTest target setup, `XCTestCase`
+    structure, the `XCTAssert*` macros (incl. `Equal` vs `EqualObjects`),
+    delegate-callback test doubles, `XCTestExpectation` for async, protocol-based
+    mocking, OCMock mention, and `xcodebuild test`.
+
 ## 2026-07-05 — Advanced tier
 
 ### Added
