@@ -3,6 +3,11 @@
 All notable changes to the iOS learning-docs site. Newest first.
 Format loosely follows [Keep a Changelog](https://keepachangelog.com/).
 
+## 2026-08-08 — fix: footer copyright year
+
+### Fixed
+- Footer copyright bumped `2023 - Present` -> `2026 - Present`.
+
 ## 2026-07-07 — feat: add Objective-C and Swift language deep-dive sections
 
 ### Added
